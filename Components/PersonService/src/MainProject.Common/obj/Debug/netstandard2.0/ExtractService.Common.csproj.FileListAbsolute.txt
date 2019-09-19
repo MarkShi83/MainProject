@@ -1,0 +1,9 @@
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\bin\Debug\netstandard2.0\ExtractService.Common.deps.json
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\bin\Debug\netstandard2.0\ExtractService.Common.dll
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\bin\Debug\netstandard2.0\ExtractService.Common.pdb
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.csprojAssemblyReference.cache
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.csproj.CoreCompileInputs.cache
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.AssemblyInfoInputs.cache
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.AssemblyInfo.cs
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.dll
+C:\src\xs-local\components\xs-common\src\ExtractService.Common\obj\Debug\netstandard2.0\ExtractService.Common.pdb

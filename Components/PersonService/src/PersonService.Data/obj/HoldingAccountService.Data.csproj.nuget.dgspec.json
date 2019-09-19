@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\HoldingAccountService.Data\\HoldingAccountService.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\HoldingAccountService.Data\\HoldingAccountService.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\HoldingAccountService.Data\\HoldingAccountService.Data.csproj",
+        "projectName": "HoldingAccountService.Data",
+        "projectPath": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\HoldingAccountService.Data\\HoldingAccountService.Data.csproj",
+        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\HoldingAccountService.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\NuGet.Config",
+          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "http://nexus1.off.class.pt:8081/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "ExtractService.Common": {
+              "target": "Package",
+              "version": "[1.0.255, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

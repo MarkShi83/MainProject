@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\ExtractService.Common\\ExtractService.Common.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\ExtractService.Common\\ExtractService.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\ExtractService.Common\\ExtractService.Common.csproj",
+        "projectName": "ExtractService.Common",
+        "projectPath": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\ExtractService.Common\\ExtractService.Common.csproj",
+        "packagesPath": "C:\\Users\\marks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\ExtractService.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marks\\Desktop\\PersonalInformationService\\src\\NuGet.Config",
+          "C:\\Users\\marks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://nexus1.off.class.pt:8081/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AWSSDK.CloudWatch": {
+              "target": "Package",
+              "version": "[3.3.102.14, )"
+            },
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.100.1, )"
+            },
+            "AWSSDK.Kinesis": {
+              "target": "Package",
+              "version": "[3.3.100.59, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.104.11, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.3.100.59, )"
+            },
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.3.101.10, )"
+            },
+            "AWSSDK.SecurityToken": {
+              "target": "Package",
+              "version": "[3.3.102.8, )"
+            },
+            "AWSSDK.SimpleNotificationService": {
+              "target": "Package",
+              "version": "[3.3.101.48, )"
+            },
+            "AWSSDK.SimpleSystemsManagement": {
+              "target": "Package",
+              "version": "[3.3.105.9, )"
+            },
+            "AWSSDK.StepFunctions": {
+              "target": "Package",
+              "version": "[3.3.100.59, )"
+            },
+            "CsvTextFieldParser": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "LaunchDarkly.Client": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NewRelic.Agent.Api": {
+              "target": "Package",
+              "version": "[8.17.438, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "Rebex.Sftp": {
+              "target": "Package",
+              "version": "[3.0.6930, )"
+            },
+            "dbup-postgresql": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

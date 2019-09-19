@@ -1,0 +1,8 @@
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\bin\Debug\netcoreapp2.1\HoldingAccountService.Data.deps.json
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\bin\Debug\netcoreapp2.1\HoldingAccountService.Data.dll
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\bin\Debug\netcoreapp2.1\HoldingAccountService.Data.pdb
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\obj\Debug\netcoreapp2.1\HoldingAccountService.Data.csproj.CoreCompileInputs.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\obj\Debug\netcoreapp2.1\HoldingAccountService.Data.AssemblyInfoInputs.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\obj\Debug\netcoreapp2.1\HoldingAccountService.Data.AssemblyInfo.cs
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\obj\Debug\netcoreapp2.1\HoldingAccountService.Data.dll
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.Data\obj\Debug\netcoreapp2.1\HoldingAccountService.Data.pdb

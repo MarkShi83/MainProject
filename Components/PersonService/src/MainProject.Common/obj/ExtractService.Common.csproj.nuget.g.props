@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\marks\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.1.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">C:\Users\marks\.nuget\packages\newrelic.agent.api\8.17.438</PkgNewRelic_Agent_Api>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\marks\.nuget\packages\awssdk.core\3.3.103.24</PkgAWSSDK_Core>
+    <PkgAWSSDK_StepFunctions Condition=" '$(PkgAWSSDK_StepFunctions)' == '' ">C:\Users\marks\.nuget\packages\awssdk.stepfunctions\3.3.100.59</PkgAWSSDK_StepFunctions>
+    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\marks\.nuget\packages\awssdk.sqs\3.3.100.59</PkgAWSSDK_SQS>
+    <PkgAWSSDK_SimpleSystemsManagement Condition=" '$(PkgAWSSDK_SimpleSystemsManagement)' == '' ">C:\Users\marks\.nuget\packages\awssdk.simplesystemsmanagement\3.3.105.9</PkgAWSSDK_SimpleSystemsManagement>
+    <PkgAWSSDK_SimpleNotificationService Condition=" '$(PkgAWSSDK_SimpleNotificationService)' == '' ">C:\Users\marks\.nuget\packages\awssdk.simplenotificationservice\3.3.101.48</PkgAWSSDK_SimpleNotificationService>
+    <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\marks\.nuget\packages\awssdk.securitytoken\3.3.102.8</PkgAWSSDK_SecurityToken>
+    <PkgAWSSDK_SecretsManager Condition=" '$(PkgAWSSDK_SecretsManager)' == '' ">C:\Users\marks\.nuget\packages\awssdk.secretsmanager\3.3.101.10</PkgAWSSDK_SecretsManager>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\marks\.nuget\packages\awssdk.s3\3.3.104.11</PkgAWSSDK_S3>
+    <PkgAWSSDK_Kinesis Condition=" '$(PkgAWSSDK_Kinesis)' == '' ">C:\Users\marks\.nuget\packages\awssdk.kinesis\3.3.100.59</PkgAWSSDK_Kinesis>
+    <PkgAWSSDK_CloudWatch Condition=" '$(PkgAWSSDK_CloudWatch)' == '' ">C:\Users\marks\.nuget\packages\awssdk.cloudwatch\3.3.102.14</PkgAWSSDK_CloudWatch>
+  </PropertyGroup>
+</Project>

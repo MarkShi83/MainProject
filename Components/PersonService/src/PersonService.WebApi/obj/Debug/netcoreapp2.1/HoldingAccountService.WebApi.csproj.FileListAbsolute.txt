@@ -1,0 +1,15 @@
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\bin\Debug\netcoreapp2.1\HoldingAccountService.WebApi.deps.json
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\bin\Debug\netcoreapp2.1\HoldingAccountService.WebApi.dll
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\bin\Debug\netcoreapp2.1\HoldingAccountService.WebApi.pdb
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\bin\Debug\netcoreapp2.1\HoldingAccountService.Data.dll
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\bin\Debug\netcoreapp2.1\HoldingAccountService.Data.pdb
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.csprojAssemblyReference.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.csproj.CoreCompileInputs.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.RazorAssemblyInfo.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.RazorAssemblyInfo.cs
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.AssemblyInfoInputs.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.AssemblyInfo.cs
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.RazorTargetAssemblyInfo.cache
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.csproj.CopyComplete
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.dll
+C:\src\xs-local\components\xs-holding-account-service\src\HoldingAccountService.WebApi\obj\Debug\netcoreapp2.1\HoldingAccountService.WebApi.pdb
