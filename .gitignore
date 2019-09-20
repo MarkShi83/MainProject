@@ -1,0 +1,10 @@
+*.Cache
+*.DotSettings
+*.DotSettings.user
+**/build/artifacts/
+**/.vs/
+**/.vscode/
+**/bin/
+**/obj/
+*.csproj.user
+**/_ReSharper.Caches/
