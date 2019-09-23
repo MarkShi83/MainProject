@@ -1,5 +1,6 @@
 ﻿using System;
 
+using MainProject.Common.Data.Helpers;
 using MainProject.Common.Hosting;
 
 using Microsoft.AspNetCore.Builder;
@@ -33,6 +34,7 @@ namespace PersonService.WebApi
                 .AddEssentials()
                 .AddSwagger()
                 .AddDataServices(config)
+                .AddQueryHelpers()
                 .AddMvc(options => options.RespectBrowserAcceptHeader = true)
                 .AddJsonOptions(
                 options =>

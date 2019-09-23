@@ -1,5 +1,5 @@
 # Stage 1
-FROM microsoft/dotnet:2.1-sdk AS builder
+FROM microsoft/dotnet:2.2-sdk AS builder
 ARG version
 WORKDIR /src
 
@@ -9,7 +9,7 @@ WORKDIR /src/PersonService
 RUN dotnet publish --output /app/ --configuration Release -p:AssemblyVersion=$version
 
 # Stage 2
-FROM microsoft/dotnet:2.1-aspnetcore-runtime
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
 
 WORKDIR /app
 COPY --from=builder /app .

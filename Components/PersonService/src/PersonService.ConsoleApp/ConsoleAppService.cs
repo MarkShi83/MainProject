@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
+using MainProject.Common;
+using MainProject.Common.Data.Helpers.Models;
 using MainProject.Common.Models;
 using MainProject.Common.Models.Rest.PersonServiceApi;
 using MainProject.Common.Rest;
@@ -12,6 +14,10 @@ using MainProject.Common.Rest;
 using Microsoft.Extensions.Hosting;
 
 using Newtonsoft.Json;
+
+using RestSharp;
+
+using RestClient = RestSharp.RestClient;
 
 namespace PersonService.ConsoleApp
 {
@@ -116,10 +122,30 @@ namespace PersonService.ConsoleApp
             Console.WriteLine("All the users first names (comma separated) who are 23");
             Console.WriteLine("Result:");
 
-            var personRequest = new PersonRequest { Age = 23 };
-            var result = _personServiceApi.GetAsync(personRequest).Result.Content;
+            var age = 23;
+            var pagesize = 20;
+            var pagenumber = 1;
 
-            Console.WriteLine("FirstName: " + string.Join(",", result.Select(x => x.First)));
+            var client = new RestClient("http://localhost:5000");
+
+            var request = new RestRequest("Persons/v2", Method.GET);
+            request.AddQueryParameter("filter", $"[age]=={age}");
+            request.AddQueryParameter("filter", $"[size]=={pagesize}");
+            request.AddQueryParameter("filter", $"[page]=={pagenumber}");
+
+            request.AddHeader("Content-Type", "application/json");
+
+            var response = client.Execute(request);
+            if (!response.IsSuccessful)
+            {
+                Console.WriteLine("Not Found");
+                Console.WriteLine();
+                return;
+            }
+
+            var result = response.Content.FromJsonString<PagedResult<Person>>();
+
+            Console.WriteLine("FirstName: " + string.Join(",", result.Data.Select(x => x.First)));
             Console.WriteLine();
         }
 
@@ -151,6 +177,5 @@ namespace PersonService.ConsoleApp
 
             Console.WriteLine(output);
         }
-
     }
 }
